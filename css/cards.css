@@ -17,7 +17,7 @@
   
   .blogs .box-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
     gap: 1.5rem;
     margin: 0 20px;
   }
@@ -51,15 +51,15 @@
   .blogs .box-container .box .content .title {
     font-size: 2.5rem;
     line-height: 1.5;
-    color: red;
+    color: #132235;
   }
   
   .blogs .box-container .box .content .title:hover {
-    color: var(--blue-dark);
+    color: var(--green-logo);
   }
   
   .blogs .box-container .box .content span {
-    color: var(--blue-dark);
+    color: #868686;
     display: block;
     padding-top: 1rem;
     font-size: 2rem;
