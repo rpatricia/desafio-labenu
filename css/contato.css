@@ -1,47 +1,48 @@
-.contact .row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  background: var(--header);
-}
-
-.contact .row .mapa {
-    flex: 1 1 45rem;
-    width: 100%;
-    object-fit: cover;
-}
-
-.contact .row form {
-    flex: 1 1 45rem;
-    padding: 5rem 2rem;
-    text-align: center;
-}
-
-.contact .row  form h3 {
-    text-transform: uppercase;
-    font-size: 3.5rem;
-    color: #fff;
-}
-
-.contact .row form .inputbox {
+    .contact .row {
     display: flex;
-    align-items: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem; 
-    background: var(--white);
-    border: 0.1rem solid rgba 255, 255, 255, 0.3;   
-}
+    flex-wrap: wrap;
+    gap: 1rem;
+    background: var(--header);
+    }
 
-.contact .row form .inputbox span {
-    color: var(--green-logo);
-    font-size: 2rem;
-    padding-left: 2rem;
-}
+    .contact .row .map {
+        flex: 1 1 45rem;
+        width: 100%;
+        object-fit: cover;
+    }
 
-.contact .row form .inputbox input {
-    width: 100%;
-    padding: 2rem;
-    font-size: 1.7rem;
-    color: #fff;
-    background: none;
-}
+    .contact .row form {
+        flex: 1 1 45rem;
+        padding: 5rem 2rem;
+        text-align: center;
+    }
+
+    .contact .row  form h3 {
+        text-transform: uppercase;
+        font-size: 3.5rem;
+        color: #fff;
+    }
+
+    .contact .row form .inputbox {
+        display: flex;
+        align-items: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem; 
+        background: var(--white);
+        border: 0.1rem solid rgba 255, 255, 255, 0.3;   
+    }
+
+    .contact .row form .inputbox span {
+        color: var(--green-logo);
+        font-size: 2rem;
+        padding-left: 2rem;
+    }
+
+    .contact .row form .inputbox input,textarea {
+        width: 100%;
+        padding: 2rem;
+        font-size: 1.7rem;
+        color: #fff;
+        background: var(--white);
+        text-transform: none;
+    }

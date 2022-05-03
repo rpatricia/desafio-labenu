@@ -148,6 +148,20 @@
     html {
       font-size: 50%;
     }
+    .header {
+      padding: 1rem 6%;
+    }
+    .header .logo img {
+      width: 35vw;
+      height: 10vh;
+      object-fit: cover;
+    }
+    .header .icons div {
+      margin-right: 10px;
+    }
   }
+
+
+
   
   
