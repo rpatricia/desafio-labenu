@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -30,7 +30,8 @@
     </header>
     <!-- Final do header -->
 
-    <!-- Início Home -->
+    <!-- home section starts  -->
+
     <section class="home" id="home">
       <div class="content">
         <h3>Experiência em Moradia Universitária.</h3>
@@ -42,10 +43,12 @@
         <a href="#" class="btn">Clique aqui</a>
       </div>
     </section>
+
     <!-- Fim do Home -->
     <!-- Início do About -->
+
     <section class="about" id="about">
-      <h1 class="heading">sobre <spam>nós </spam></h1>
+      <h1 class="heading">sobre <span>nós </span></h1>
       <div class="row">
         <div class="image">
           <img src="assets/sobre920.jpg" alt="imagem sobre nós" />
@@ -71,6 +74,7 @@
       </div>
     </section>
     <!-- Fim do sobre -->
+
     <!-- Início do blog -->
     <section class="blogs" id="blogs">
       <h1 class="heading">nossos <span>Produtos</span></h1>
@@ -169,24 +173,34 @@
     </section>
 
     <!-- Fim do blog-->
-    <!-- Início do Form -->
+
+    <!-- contact section starts  -->
+
     <section class="contact" id="contact">
-      <h1 class="heading">Entre em contato</h1>
+      <h1 class="heading"><span>Entre em</span> contato</h1>
+
       <div class="row">
-        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252837.33987376007!2d-35.07793734873929!3d-8.041809848983947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab196f88c446e5%3A0x3c9ef52922447fd4!2sRecife%20-%20PE!5e0!3m2!1spt-BR!2sbr!4v1651611456354!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <form action="#">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252837.33987376007!2d-35.07793734873929!3d-8.041809848983947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab196f88c446e5%3A0x3c9ef52922447fd4!2sRecife%20-%20PE!5e0!3m2!1spt-BR!2sbr!4v1651611456354!5m2!1spt-BR!2sbr"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+
+        <form action="">
           <h3>contato</h3>
-          <div class="inputbox">
+          <div class="inputBox">
             <span class="fas fa-user"></span>
-            <input type="text" placeholder="nome" required />
+            <input type="text" placeholder="name" required />
           </div>
-          <div class="inputbox">
+          <div class="inputBox">
             <span class="fas fa-envelope"></span>
             <input type="email" placeholder="email" required />
           </div>
-          <div class="inputbox">
+          <div class="inputBox">
             <span class="fas fa-phone"></span>
-            <input type="number" placeholder="número" required />
+            <input type="number" placeholder="number" required />
           </div>
           <div class="inputBox">
             <span></span>
@@ -195,13 +209,44 @@
               cols="70"
               rows="10"
               placeholder="Mensagem"
+              required
             ></textarea>
           </div>
-          <input type="submit" value="enviar" class="btn" required />
+          <input type="submit" value="enviar" class="btn" />
         </form>
       </div>
     </section>
-    <!-- Final do Form -->
-    <script src="./js/script.js"></script>
+
+    <!-- contact section ends -->
+
+    <!-- footer section starts  -->
+        <section class="footer">
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+          </div>
+          </div>
+          <div class="links">
+            <a href="#">Home</a>
+            <a href="#">Sobre</a>
+            <a href="#">Produtos</a>
+            <a href="#">Fale Conosco</a>
+          </div>
+          <div class="credit">
+            &copy;Todos os Direitos Reservados | Criado por <span>Renata Patrícia Pausini</span>
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+          </div>
+          
+        </section>
+    <!-- footer section ends -->
+
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
   </body>
 </html>
