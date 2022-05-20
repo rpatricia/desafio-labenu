@@ -1,4 +1,4 @@
-# Desafio-labenu
+# Desafio-Labenu
 ---
 Este desafio consiste em criar uma landing page, de um site de moradias universitárias, chamando a atenção de estudantes.
 
@@ -9,7 +9,8 @@ Este desafio consiste em criar uma landing page, de um site de moradias universi
 [Desafio-labenu](https://desafio-labenu.netlify.app/)
 
 **Desafios do projeto**<br>
-*Usar o flexbox para alinhar os elementos*
+*Alinhar os elementos*<br>
+*Deixar a página responsiva para todos os dispositivos*
 
 
 
