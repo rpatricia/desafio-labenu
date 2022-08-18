@@ -15,11 +15,8 @@ Este desafio consiste em criar uma landing page, de um site de moradias universi
 Alinhar os elementos<br>
 Deixar a página responsiva para todos os dispositivos</p>
 
-<<<<<<< HEAD
+---
 <p align="left">A página  está responsiva para todos os dispositivos. Possui um campo com contato e validação de e-mail. A logo é fictícia e foi passada na descrição do desafio.</p>
-=======
-<p align="left">A página  está responiva para todos os dispositivos.Possui um campo com contato e validação de e-mail. A logo é fictícia e foi passada na descrição do desafio.</p>
->>>>>>> 776e6cd3763d79d108b3ca41e0852f6994a57710
 
 <p align="left">Linguagens usadas nesse projeto:</p>
 
