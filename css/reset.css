@@ -83,6 +83,7 @@ section {
   background: var(--hamburger);
   cursor: pointer;
   border-radius: 7px;
+  border: 2px solid var(--hamburger);
 }
 
 .btn:hover {
